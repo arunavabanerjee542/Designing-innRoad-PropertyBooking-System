@@ -16,6 +16,7 @@ namespace InnRoad_Property_Booking
         public int PropertyCost;
         public int no_of_rooms;
         public int no_of_floors;
+        public Payment p;
 
         public abstract void ShowPropertyDesctiption();
 

@@ -24,7 +24,7 @@ namespace InnRoad_Property_Booking
             no_of_floors = nf;
             no_of_chefs = nc;
             no_of_waiters = nw;
-
+           
 
 
         }

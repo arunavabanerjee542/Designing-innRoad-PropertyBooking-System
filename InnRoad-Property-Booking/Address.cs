@@ -6,9 +6,9 @@
         public string state;
         public string city;
         public string street;
-        public string pin;
+        public int pin;
 
-        public Address(string c,string s,string City,string str,string p)
+        public Address(string c,string s,string City,string str,int p)
         {
             country = c;
             state = s;

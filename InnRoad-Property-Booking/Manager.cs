@@ -8,7 +8,13 @@ namespace InnRoad_Property_Booking
 {
     class Manager
     {
-        private List<Property> plist;
+  public  List<Property> plist;
+
+        public Manager()
+        {
+            plist = new List<Property>();
+        }
+
 
         public void ShowAllServices()
         {
